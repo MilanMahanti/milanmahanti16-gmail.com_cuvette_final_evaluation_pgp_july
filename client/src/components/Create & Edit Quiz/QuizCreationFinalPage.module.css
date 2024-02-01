@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 1rem;
+  padding: 5.5rem;
+  transition: all 0.5s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputContainer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input {
+  width: 70%;
+  background-color: #ededed;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}

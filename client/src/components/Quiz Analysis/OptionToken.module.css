@@ -1,0 +1,32 @@
+.option {
+  background-color: #fff;
+  text-align: center;
+  padding: 0.7rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.poll {
+  flex-direction: row;
+  justify-content: space-around;
+  span {
+    font-size: 3.5;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
+.qa {
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.count {
+  font-size: 3rem;
+  font-weight: 600;
+}

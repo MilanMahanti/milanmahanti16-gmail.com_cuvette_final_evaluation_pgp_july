@@ -1,0 +1,65 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 1rem;
+  padding: 3.2rem 4rem;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.input {
+  width: 50rem;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  font-size: 2rem;
+  /* margin-bottom: 2.6rem; */
+}
+.input:focus {
+  outline: #9f9f9f;
+}
+.input::placeholder {
+  color: #9f9f9f;
+}
+
+.radiogroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 2rem; */
+  color: #9f9f9f;
+  font-size: 2rem;
+  input {
+    display: none;
+  }
+  input[type="radio"]:checked + label {
+    background: #60b84b;
+    color: #fff;
+    transition: var(--transition);
+  }
+}
+.radiolabel {
+  padding: 0.8rem 3rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.btngroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.err {
+  text-align: left;
+  color: rgb(239, 55, 55);
+  margin-top: 0.6rem;
+}

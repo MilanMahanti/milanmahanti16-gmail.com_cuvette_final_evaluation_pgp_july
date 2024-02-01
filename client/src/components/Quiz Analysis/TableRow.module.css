@@ -1,0 +1,11 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+
+  svg {
+    cursor: pointer;
+  }
+}
+.link {
+  text-decoration: underline;
+}

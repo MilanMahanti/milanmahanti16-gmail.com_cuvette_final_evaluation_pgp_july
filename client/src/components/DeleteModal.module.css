@@ -1,0 +1,49 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 1rem;
+  padding: 3.2rem 4rem;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.message {
+  font-size: 3.4rem;
+  font-size: 600;
+  margin-bottom: 3rem;
+}
+
+.btnContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  button {
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+}
+.deletebtn {
+  background: #ff4b4b;
+  color: #fff;
+}
+.deletebtn:hover {
+  background: #f02f2f;
+}

@@ -1,0 +1,19 @@
+.layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+}
+.container {
+  background-color: #ededed;
+  overflow-y: scroll;
+  padding: 6rem 5rem;
+}
+.loadingContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
