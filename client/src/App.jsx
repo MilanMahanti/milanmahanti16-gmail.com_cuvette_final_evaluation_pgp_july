@@ -11,9 +11,7 @@ import {
   QuizAnalysis,
 } from "./pages";
 import {
-  Error,
   Login,
-  ProtectedRoute,
   QuestionEditForm,
   QuestionsForm,
   QuizCreationFinalPage,
